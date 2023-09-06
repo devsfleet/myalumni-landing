@@ -33,6 +33,31 @@ p {
   font-size: 18px;
 }
 
+ul > li{
+  margin-bottom: 12px;
+}
+
+.cta{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
+}
+
+.download{
+  display: inline-flex;
+}
+
+.download p{
+  margin-right: 10px;
+}
+
+.download img{
+  width: 200px;
+  border-radius: 5px;
+}
+
 .cta-button {
   display: inline-block;
   background-color: #007acc;
@@ -46,9 +71,35 @@ p {
 .cta-button:hover {
   background-color: #005eaa;
 }
+
 .mobile-mockup {
   padding: 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
 }
+
 .mobile-mockup img{
   width: 250px;
+  border-radius: 33px;
+}
+
+footer{
+  color: #fff;
+  background-color: #007acc;
+}
+
+.footer-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1024px;
+  margin: auto;
+}
+
+.footer-links a{
+  color: #ccc;
+  margin-right: 10px;
 }
