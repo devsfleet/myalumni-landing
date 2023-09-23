@@ -91,6 +91,12 @@ footer{
   background-color: #007acc;
 }
 
+.footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
 .footer-container{
   display: flex;
   justify-content: space-between;
