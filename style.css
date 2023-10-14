@@ -39,6 +39,7 @@ ul > li{
 
 .cta{
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 10px;
@@ -108,4 +109,14 @@ footer{
 .footer-links a{
   color: #ccc;
   margin-right: 10px;
+}
+
+@media only screen and (max-width: 420px) {
+  .download p{
+    display: none;
+  }
+
+  .footer-container h2{
+    font-size: 16px;
+  }
 }
